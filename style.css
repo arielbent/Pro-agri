@@ -5,40 +5,35 @@
     box-sizing: border-box;
 }
 
-/* Corpo da página - cor de fundo com gradiente */
+/* Corpo da página */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background: linear-gradient(135deg, #7ED957, #B5F9A1); /* Gradiente de verde */
+    background-color: #f4f4f9;
     color: #333;
-    padding-bottom: 50px; /* Para garantir que o rodapé não sobreponha o conteúdo */
 }
 
 /* Cabeçalho */
 header {
-    background-color: #388E3C; /* Verde escuro para o cabeçalho */
+    background-color: #4CAF50;
     color: white;
-    padding: 30px 20px;
+    padding: 20px;
     text-align: center;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
     margin-bottom: 10px;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 header p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 /* Navegação */
 nav {
-    background-color: #2C6B2F; /* Cor mais escura para a navegação */
-    padding: 15px 0;
-    border-radius: 8px;
-    margin-top: 20px;
+    background-color: #333;
+    padding: 10px 0;
 }
 
 nav ul {
@@ -48,28 +43,27 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 25px;
+    margin-right: 20px;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 /* Seções */
 section {
-    padding: 25px;
+    padding: 20px;
     margin: 20px 0;
-    background-color: #FFFFFF; /* Fundo branco para destacar o conteúdo */
+    background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Títulos das seções */
 h2 {
-    color: #388E3C; /* Verde escuro para títulos */
-    margin-bottom: 15px;
+    color: #4CAF50;
+    margin-bottom: 10px;
 }
 
 /* Lista */
@@ -79,20 +73,17 @@ ul {
 }
 
 ul li {
-    font-size: 1.2rem;
-    margin-bottom: 12px;
-    line-height: 1.8;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
 }
 
 /* Rodapé */
 footer {
-    background-color: #2C6B2F; /* Cor mais escura para o rodapé */
+    background-color: #333;
     color: white;
     text-align: center;
-    padding: 15px;
+    padding: 10px;
     position: fixed;
     width: 100%;
     bottom: 0;
-    border-radius: 8px;
-    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
 }
