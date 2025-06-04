@@ -5,11 +5,11 @@
     box-sizing: border-box;
 }
 
-/* Corpo da página - Fundo com gradiente */
+/* Corpo da página - cor de fundo sólida */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background: linear-gradient(to right, #8BC34A, #E8F5E9); /* Gradiente verde claro */
+    background-color: #DFF2E6; /* Cor verde suave */
     color: #333;
     padding-bottom: 50px; /* Para garantir que o rodapé não sobreponha o conteúdo */
 }
@@ -84,13 +84,12 @@ ul li {
 
 /* Rodapé */
 footer {
-    background-color: #2fc036; /* Cor mais escura para o rodapé */
-    color: rgb(35, 152, 51);
+    background-color: #2C6B2F; /* Cor mais escura para o rodapé */
+    color: white;
     text-align: center;
     padding: 10px;
     position: fixed;
     width: 100%;
     bottom: 0;
     border-radius: 8px;
-    box-shadow: 0 -4px 8px rgba(22, 136, 24, 0.63);
-
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
