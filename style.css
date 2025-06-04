@@ -1,7 +1,9 @@
 /* Definir a cor de fundo */
 body {
+    <color>
     background-color: #53dd7a;  /* Escolha a cor desejada */
 }
+</color>
 
 /* Adicionar uma imagem de fundo */
 body {
