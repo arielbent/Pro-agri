@@ -5,20 +5,23 @@
     box-sizing: border-box;
 }
 
-/* Corpo da página */
+/* Corpo da página - Fundo com gradiente */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f9;
+    background: linear-gradient(to right, #8BC34A, #E8F5E9); /* Gradiente verde claro */
     color: #333;
+    padding-bottom: 50px; /* Para garantir que o rodapé não sobreponha o conteúdo */
 }
 
 /* Cabeçalho */
 header {
-    background-color: #4CAF50;
+    background-color: #388E3C; /* Cor de fundo mais forte para o cabeçalho */
     color: white;
     padding: 20px;
     text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
@@ -32,8 +35,9 @@ header p {
 
 /* Navegação */
 nav {
-    background-color: #333;
+    background-color: #2C6B2F; /* Cor mais escura para a navegação */
     padding: 10px 0;
+    border-radius: 8px;
 }
 
 nav ul {
@@ -56,13 +60,14 @@ nav ul li a {
 section {
     padding: 20px;
     margin: 20px 0;
-    background-color: #fff;
+    background-color: #FFFFFF; /* Fundo branco para destacar o conteúdo */
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Títulos das seções */
 h2 {
-    color: #4CAF50;
+    color: #388E3C; /* Cor verde para títulos */
     margin-bottom: 10px;
 }
 
@@ -79,11 +84,13 @@ ul li {
 
 /* Rodapé */
 footer {
-    background-color: #333;
+    background-color: #2C6B2F; /* Cor mais escura para o rodapé */
     color: white;
     text-align: center;
     padding: 10px;
     position: fixed;
     width: 100%;
     bottom: 0;
+    border-radius: 8px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
 
