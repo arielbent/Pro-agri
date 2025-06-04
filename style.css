@@ -9,7 +9,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #81D4FA; /* Cor sólida de fundo (azul claro) */
+    background-color: #ADD8E6; /* Cor sólida de fundo (azul claro) */
     color: #333;
     padding-bottom: 50px; /* Para garantir que o rodapé não sobreponha o conteúdo */
 }
@@ -87,9 +87,7 @@ ul li {
 /* Rodapé */
 footer {
     background-color: #2C6B2F; /* Cor mais escura para o rodapé */
-    background-color: #2C6B2F; /* Cor mais escura para o rodapé */
-    color: 
-
+    color: white;
     text-align: center;
     padding: 15px;
     position: fixed;
@@ -97,4 +95,4 @@ footer {
     bottom: 0;
     border-radius: 8px;
     box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
-}
+
