@@ -5,35 +5,40 @@
     box-sizing: border-box;
 }
 
-/* Corpo da página */
+/* Corpo da página - fundo com cor sólida */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f9;
+    background-color: #7ED957; /* Cor sólida de fundo (verde claro) */
     color: #333;
+    padding-bottom: 50px; /* Para garantir que o rodapé não sobreponha o conteúdo */
 }
 
 /* Cabeçalho */
 header {
-    background-color: #4CAF50;
+    background-color: #388E3C; /* Cor mais escura para o cabeçalho */
     color: white;
-    padding: 20px;
+    padding: 30px 20px;
     text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
     margin-bottom: 10px;
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 header p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 /* Navegação */
 nav {
-    background-color: #333;
-    padding: 10px 0;
+    background-color: #2C6B2F; /* Cor mais escura para a navegação */
+    padding: 15px 0;
+    border-radius: 8px;
+    margin-top: 20px;
 }
 
 nav ul {
@@ -43,27 +48,28 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 25px;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 /* Seções */
 section {
-    padding: 20px;
+    padding: 25px;
     margin: 20px 0;
-    background-color: #fff;
+    background-color: #FFFFFF; /* Fundo branco para destacar o conteúdo */
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Títulos das seções */
 h2 {
-    color: #4CAF50;
-    margin-bottom: 10px;
+    color: #388E3C; /* Verde escuro para títulos */
+    margin-bottom: 15px;
 }
 
 /* Lista */
@@ -73,17 +79,20 @@ ul {
 }
 
 ul li {
-    font-size: 1.1rem;
-    margin-bottom: 10px;
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+    line-height: 1.8;
 }
 
 /* Rodapé */
 footer {
-    background-color: #333;
+    background-color: #2C6B2F; /* Cor mais escura para o rodapé */
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     position: fixed;
     width: 100%;
     bottom: 0;
+    border-radius: 8px;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1)
 }
