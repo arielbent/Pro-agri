@@ -9,14 +9,14 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #7ED957; /* Cor sólida de fundo (verde claro) */
+    background-color: #81D4FA; /* Cor sólida de fundo (azul claro) */
     color: #333;
     padding-bottom: 50px; /* Para garantir que o rodapé não sobreponha o conteúdo */
 }
 
 /* Cabeçalho */
 header {
-    background-color: #388E3C; /* Cor mais escura para o cabeçalho */
+    background-color: #388E3C; /* Verde escuro para o cabeçalho */
     color: white;
     padding: 30px 20px;
     text-align: center;
@@ -63,7 +63,7 @@ section {
     margin: 20px 0;
     background-color: #FFFFFF; /* Fundo branco para destacar o conteúdo */
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(70, 23, 23, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Títulos das seções */
@@ -86,13 +86,13 @@ ul li {
 
 /* Rodapé */
 footer {
-    background-color: #7ED957; /* Cor mais escura para o rodapé */
-    color: rgb(168, 31, 31);
+    background-color: #2C6B2F; /* Cor mais escura para o rodapé */
+    color: white;
     text-align: center;
     padding: 15px;
     position: fixed;
     width: 100%;
     bottom: 0;
     border-radius: 8px;
-    box-shadow: 0 -4px 10px rgba(42, 24, 24, 0.1)
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
 }
