@@ -87,7 +87,9 @@ ul li {
 /* Rodapé */
 footer {
     background-color: #2C6B2F; /* Cor mais escura para o rodapé */
-    color: white;
+    background-color: #2C6B2F; /* Cor mais escura para o rodapé */
+    color: 
+
     text-align: center;
     padding: 15px;
     position: fixed;
