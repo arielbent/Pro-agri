@@ -60,7 +60,7 @@ nav ul li a {
 section {
     padding: 20px;
     margin: 20px 0;
-    background-color: #DFF2E6; /* Fundo branco para destacar o conteúdo */
+    background-color: #00ff5e; /* Fundo branco para destacar o conteúdo */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
