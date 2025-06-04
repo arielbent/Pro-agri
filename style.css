@@ -1,6 +1,6 @@
 /* Definir a cor de fundo e a imagem de fundo */
 body {
-    background-color: #f0f0f0; /* Cor de fundo padrão */
+    background-color: #399e29; /* Cor de fundo padrão */
     background-image: url('https://caminho-da-imagem.jpg'); /* Imagem de fundo */
     background-size: cover;  /* Faz a imagem cobrir toda a tela */
     background-position: center center;  /* Centraliza a imagem */
