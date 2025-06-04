@@ -1,14 +1,47 @@
-/* Definir a cor de fundo */
+/* Definir a cor de fundo e a imagem de fundo */
 body {
-    <color>
-    background-color: #53dd7a;  /* Escolha a cor desejada */
-}
-</color>
-
-/* Adicionar uma imagem de fundo */
-body {
-    background-image: url('https://caminho-da-imagem.jpg'); /* Insira o URL da sua imagem */
-    background-size: cover;  /* Isso garante que a imagem cubra toda a tela */
+    background-color: #f0f0f0; /* Cor de fundo padrão */
+    background-image: url('https://caminho-da-imagem.jpg'); /* Imagem de fundo */
+    background-size: cover;  /* Faz a imagem cobrir toda a tela */
     background-position: center center;  /* Centraliza a imagem */
     background-repeat: no-repeat;  /* Evita que a imagem se repita */
+    color: #333333;  /* Cor padrão do texto */
+    font-family: Arial, sans-serif;  /* Fonte padrão */
+    margin: 0;  /* Remove margens padrão */
+    padding: 0;  /* Remove o padding padrão */
+}
+
+/* Definir cor do título h1 */
+h1 {
+    color: #4CAF50;  /* Cor do título */
+    text-align: center;  /* Centraliza o título */
+}
+
+/* Definir cor de textos parágrafos */
+p {
+    color: #666666;  /* Cor do texto dos parágrafos */
+    font-size: 16px;  /* Tamanho da fonte do parágrafo */
+    line-height: 1.5;  /* Espaçamento entre linhas */
+    text-align: justify;  /* Justifica o texto */
+    margin: 20px;  /* Adiciona margem ao redor do texto */
+}
+
+/* Adicionar um estilo ao link */
+a {
+    color: #3498db;  /* Cor do link */
+    text-decoration: none;  /* Remove o sublinhado do link */
+}
+
+a:hover {
+    color: #2c3e50;  /* Cor do link quando estiver em hover */
+    text-decoration: underline;  /* Sublinha o link ao passar o mouse */
+}
+
+/* Estilizar uma div container */
+.container {
+    width: 80%;  /* Largura do container */
+    margin: 0 auto;  /* Centraliza o container */
+    padding: 20px;  /* Padding interno */
+    background-color: rgba(255, 255, 255, 0.8);  /* Fundo semitransparente */
+    border-radius: 8px;  /* Borda arredondada */
 }
